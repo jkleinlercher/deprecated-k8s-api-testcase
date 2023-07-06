@@ -4,7 +4,6 @@
     "config:base"
   ],
   "kubernetes": {
-    "fileMatch": [".*\\.yaml$"],
-    "allowedVersions": "<=1.25"
+    "fileMatch": [".*\\.yaml$"]
   }
 }
