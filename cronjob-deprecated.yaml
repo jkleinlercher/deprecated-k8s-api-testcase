@@ -12,7 +12,7 @@ spec:
         spec:
           containers:
           - name: demo-cron-job
-            image: node:14-alpine
+            image: node:21-alpine
             imagePullPolicy: Always
             args:
             - -e
